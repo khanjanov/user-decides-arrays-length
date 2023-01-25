@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 40%;
+  margin: 200px auto;
+  display: flex;
+  justify-content: center;
+  padding: 80px 40px;
+  background-color: darkslategray;
+  border-radius: 12px;
+  &__result {
+    color: lightgreen;
+  }
+}

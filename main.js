@@ -1,7 +1,8 @@
-let a = prompt("enter a arrays length");
+let result = document.querySelector(".container__result");
+let a = prompt("enter array's length");
 let arr = [];
 let i = 0;
 for (i; i < a; i++) {
-  arr[i] = +prompt(` enter arrays ${i + 1} number`);
+  arr[i] = +prompt(` enter array's number ${i + 1} `);
 }
-console.log(arr);
+result.innerHTML = `${arr}`;
