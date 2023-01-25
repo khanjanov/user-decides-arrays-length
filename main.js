@@ -8,5 +8,5 @@ for (i; i < a; i++) {
 }
 result.innerHTML = `${arr}`;
 container.addEventListener("click", () => {
-  result.innerHTML = "I knew you that would click 😃";
+  result.innerHTML = "I knew that you would click 😃";
 });
